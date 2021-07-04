@@ -17,6 +17,7 @@ body{
 .half-width{
     width: 50%;
     padding-left: 2%;
+    margin-top: 20px;
     
 
 }
@@ -30,6 +31,7 @@ h1{
 
 .half-width img{
     width: 100%;
+
     
     
 }
@@ -38,6 +40,7 @@ h1{
     background-image: linear-gradient(orange,tomato);
     padding: 10px 40px;
     border-radius: 5px;
+    margin-top: 10px;
     
   
 }
@@ -64,6 +67,18 @@ h1{
     background-repeat: no-repeat;
 }
 
-.web-dev-exp{
-   border-image: gradien;
+#web-dev-exp{
+   border-image: linear-gradient(blue,cyan);
+   border-left: solid 7px;
+   border-image-slice: 1;
 }
+
+#full-stack-exp{
+    border-image: linear-gradient(salmon,tomato);
+    border-left: solid 7px;
+    border-image-slice: 1;
+ }
+ footer{
+     text-align: center;
+     margin-top: 30px;
+ }
