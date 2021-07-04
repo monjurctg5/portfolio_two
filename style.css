@@ -46,3 +46,8 @@ h1{
     color: white;
     font-weight: bold;
 }
+.dream-big{
+    background-image: url(/portfolio_two/images/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
+}
