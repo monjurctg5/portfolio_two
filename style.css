@@ -6,7 +6,7 @@ body{
     margin: 0;
 }
 
-section{
+.flexibe-container{
     display: flex;
 }
 .top-banner{
@@ -50,4 +50,20 @@ h1{
     background-image: url(/portfolio_two/images/dream-bg.png);
     background-repeat: no-repeat;
     background-position: right;
+}
+.half-width-experience{
+    width: 40%;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding-left: 20px;
+    box-shadow: 10px 10px 40px gray;
+    border-radius: 10px;
+}
+.experience-area{
+    background-image: url("images/exp-bg.png");
+    background-repeat: no-repeat;
+}
+
+.web-dev-exp{
+   border-image: gradien;
 }
